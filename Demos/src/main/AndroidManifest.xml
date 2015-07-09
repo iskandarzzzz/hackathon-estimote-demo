@@ -14,6 +14,7 @@
   <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
   <uses-permission android:name="android.permission.INTERNET"/>
     -->
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
 
 
     <!-- Declaration that this app is usable on phones with Bluetooth Low Energy. -->
@@ -29,7 +30,6 @@
             android:name=".activities.WelcomeBird"
             android:label="Welcome Birdie!"
             android:screenOrientation="portrait" >
-
         </activity>
         <activity
             android:name=".activities.AllDemosActivity"
@@ -40,7 +40,6 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-
         </activity>
         <activity
             android:name=".activities.ListBeaconsActivity"
@@ -80,11 +79,19 @@
 
         <activity
             android:name=".activities.ReceiverActivity"
-            android:label="@string/title_activity_receiver" android:screenOrientation="landscape"
-
-            android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
-
+            android:label="@string/title_activity_receiver"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
         </activity>
+
+
+
+        <receiver android:name=".activities.BeaconServiceReceiver" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+
     </application>
 
 </manifest>
