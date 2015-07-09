@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/joserojas/Desktop/Repositories/android/Android-SDK/Demos/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/classes.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
+        <dex dex="/Users/joserojas/Desktop/Repositories/android/Android-SDK/Demos/build/intermediates/pre-dexed/debug/classes-8973f5cc9590d951327d82affded7b0c1468a3ca.jar" />
+    </item>
+    <item
+        jar="/Users/joserojas/Desktop/Repositories/android/Android-SDK/Demos/build/intermediates/exploded-aar/estimote-sdk-preview/classes.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="578beb5046314f17acbbd48509ee4b1a21710e97">
+        <dex dex="/Users/joserojas/Desktop/Repositories/android/Android-SDK/Demos/build/intermediates/pre-dexed/debug/classes-2a4a565960532d2baf9e4999772eab46ebeee34a.jar" />
+    </item>
+    <item
+        jar="/Users/joserojas/Desktop/Repositories/android/Android-SDK/Demos/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/libs/internal_impl-22.2.0.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="57f2ab85c164ff1676ec64dee787981c046fab79">
+        <dex dex="/Users/joserojas/Desktop/Repositories/android/Android-SDK/Demos/build/intermediates/pre-dexed/debug/internal_impl-22.2.0-b77c8e91229034d6b368e6d4f8c157e683f1c6b0.jar" />
+    </item>
+    <item
+        jar="/Users/joserojas/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/22.2.0/support-annotations-22.2.0.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="66b42a1f3eb7676070b7ef7f14b603483aecbee1">
+        <dex dex="/Users/joserojas/Desktop/Repositories/android/Android-SDK/Demos/build/intermediates/pre-dexed/debug/support-annotations-22.2.0-613e554f134b798bc2ac49027cd2c1d48fa7fade.jar" />
+    </item>
+    <item
+        jar="/Users/joserojas/Desktop/Repositories/android/Android-SDK/Demos/build/intermediates/exploded-aar/com.android.support/support-v13/22.2.0/libs/internal_impl-22.2.0.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="79a5b6d9fbab3b5fb4c6f86a1ed7a17722fd937b">
+        <dex dex="/Users/joserojas/Desktop/Repositories/android/Android-SDK/Demos/build/intermediates/pre-dexed/debug/internal_impl-22.2.0-155b164d37409c9b857ef03c3ce4e816ef0e7fb0.jar" />
+    </item>
+    <item
+        jar="/Users/joserojas/Desktop/Repositories/android/Android-SDK/Demos/build/intermediates/exploded-aar/com.android.support/support-v13/22.2.0/classes.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="9aa93835393824b436f366120c9ba8a0260ce75d">
+        <dex dex="/Users/joserojas/Desktop/Repositories/android/Android-SDK/Demos/build/intermediates/pre-dexed/debug/classes-980072c5cbd635de36acb74cf6a5bd649c6bbbab.jar" />
+    </item>
+
+</items>
