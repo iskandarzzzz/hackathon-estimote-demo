@@ -39,23 +39,23 @@ public class BeaconServiceReceiver extends BroadcastReceiver {
             @Override
             public void onBeaconsDiscovered(Region region, final List<Beacon> rangedBeacons) {
                 Beacon foundBeacon = null;
-                for(Beacon rangedBeacon : rangedBeacons) {
-                    for(Beacon supportedBeacon : beaconList) {
-                        if(rangedBeacon.getMajor() == supportedBeacon.getMajor() && rangedBeacon.getMinor() == supportedBeacon.getMinor()) {
+                for (Beacon rangedBeacon : rangedBeacons) {
+                    for (Beacon supportedBeacon : beaconList) {
+                        if (rangedBeacon.getMajor() == supportedBeacon.getMajor() && rangedBeacon.getMinor() == supportedBeacon.getMinor()) {
                             foundBeacon = rangedBeacon;
 
                             switch (foundBeacon.getName()) {
                                 case BEACON_BLUEBERRY:
-                                    Log.i("TRAVELBIRD-BEACON",BEACON_BLUEBERRY+ " found!");
+                                    Log.i("TRAVELBIRD-BEACON", BEACON_BLUEBERRY + " found!");
                                     break;
 
                                 case BEACON_ICE:
-                                    Log.i("TRAVELBIRD-BEACON",BEACON_ICE+ " found!");
+                                    Log.i("TRAVELBIRD-BEACON", BEACON_ICE + " found!");
 
                                     break;
 
                                 case BEACON_MINT:
-                                    Log.i("TRAVELBIRD-BEACON",BEACON_MINT+ " found!");
+                                    Log.i("TRAVELBIRD-BEACON", BEACON_MINT + " found!");
 
                                     break;
                             }
@@ -65,5 +65,11 @@ public class BeaconServiceReceiver extends BroadcastReceiver {
             }
         });
 
+        beaconManager.connect(new BeaconManager.ServiceReadyCallback() {
+            @Override
+            public void onServiceReady() {
+                Log.i("TRAVELBIRD-BEACON", "CONNECT" + " found!");
+            }
+        });
     }
 }
